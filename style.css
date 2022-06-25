@@ -1,0 +1,181 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: 'Open Sans', sans-serif;
+   }
+
+   /*cabecera*/
+
+header{
+    width: 100%;
+    height: 90px;
+    border-bottom: #d9d9d9 2px solid;
+}
+
+.logo{
+    display: inline-block;
+    margin: 0 0 0 20px;
+    
+}
+
+.logo img{
+    width: 250px;
+    margin: 20px 0px 0 0;
+     
+}
+
+.main{
+    display: inline-block;
+    list-style: none;
+    position: absolute;
+    right: 0;
+    
+}
+
+.main li {
+    display: inline-block;
+    margin-right: 30px;
+    margin-top: 20px;
+}
+
+.main li a{
+    color:black;
+    text-decoration: none;
+    font-size: 16px;
+    transition: all 0.1s linear;
+}
+
+.main .contacto{
+    background: #eeeeee;
+    padding: 15px ;
+    border-radius: 12px;
+}
+
+/*cabecera*/
+
+/*sección principal*/
+
+section{
+    width: 100%;
+    height: 100%;
+    background-color: #eeeeee;
+    background-size: cover;
+    display: flex;
+    flex-direction: row;
+}
+
+/*sección principal*/
+
+/*sección left*/
+
+.section_left{
+    padding-top: 3rem;
+    padding-left: 2rem;
+    padding-right: 2rem;
+    background-color: #eeeeee;
+    width: 30%;
+}
+
+
+.cuadro{
+    margin-bottom: 35px;
+    border-radius: 12px;
+    position: relative;
+    
+}
+
+.ropa{
+    opacity: 1;
+    width: 100%;
+    height: 100%;
+    border-radius: 12px;
+    
+}
+
+.letra{
+    position: absolute;
+    left: 27%;
+    top: 65%;
+    color: #000000;
+    background: #eeeeee;
+    opacity: 0.9;
+    padding: 7px;
+    border-radius: 12px;
+}
+
+/*sección left*/
+
+/*sección right*/
+
+.section_right{
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    position: relative;
+}
+
+.imagen_principal{
+    width: 100%;
+}
+
+.section_right h1{
+    position: absolute;
+    font-size: 3.5rem;
+    top: 100px;
+    right:0;
+    max-width: 500px;
+
+}
+
+.section_right a{
+    position: absolute;
+    font-size: 1.5rem;
+    top: 300px;
+    right:180px;
+    max-width: 500px;
+    text-decoration: none;
+    color: #000000 ;
+    padding: 15px 15px;
+    background-color: #d9d9d9;
+    border-radius: 12px;
+    transition: all 0.3s ease-in-out;
+
+}
+
+.section_right a:hover{
+    background-color: rgb(255, 255, 255);
+   }
+
+/*sección right*/
+
+/*pie de página*/
+
+footer{
+    width: 100%;
+    height: 80px;
+    border-top: #d9d9d9 2px solid;
+}
+
+.botton-footer{
+    display: inline-block;
+    margin: 30px 0 0 30px;
+}
+
+.botton-social{
+    display: inline-block;
+    margin: 30px 0 0 30px;
+    position: absolute;
+    right: 0;
+}
+
+.botton-social a{
+    text-decoration: none;
+    color: #000000;
+    margin-right: 30px;
+}
+
+/*pie de página*/
